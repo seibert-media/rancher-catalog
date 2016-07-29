@@ -1,6 +1,4 @@
-version: '0'
-services:
-  jira-software:
-    build: seibertmedia/atlassian-jira-software
-    ports:
-      - "8080:8080"
+jira-software:
+  build: seibertmedia/atlassian-jira-software
+  ports:
+    - "8080:8080"
