@@ -1,0 +1,10 @@
+.catalog:
+  name: "JIRA-Software"
+  version: "v7.1.9"
+  description: "Software development tool used by agile teams."
+  uuid: jira-sw-0
+  minimum_rancher_version: v0.51.0
+  questions:
+
+
+jira-software:
