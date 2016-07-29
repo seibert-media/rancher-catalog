@@ -1,4 +1,5 @@
 jira-software:
   image: seibertmedia/atlassian-jira-software:v7.1.9
+  tty: true
   ports:
   - "8080:8080"
