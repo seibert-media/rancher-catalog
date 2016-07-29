@@ -1,4 +1,4 @@
 jira-software:
-  build: seibertmedia/atlassian-jira-software
+  image: seibertmedia/atlassian-jira-software:v7.1.9
   ports:
-    - "8080:8080"
+  - "8080:8080"
