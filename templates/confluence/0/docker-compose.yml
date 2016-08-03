@@ -1,0 +1,4 @@
+confluence:
+  image: seibertmedia/atlassian-confluence:v5.10.3
+  ports:
+  - "8090"

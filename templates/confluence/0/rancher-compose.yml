@@ -1,0 +1,12 @@
+.catalog:
+  name: Confluence
+  version: v5.10.3
+  description: |
+    Enterprise Wiki Software by Atlassian
+  maintainer: "//SEIBERT/MEDIA GmbH"
+  uuid: confl-0
+  minimum_rancher_version: v0.51.0
+
+
+confluence:
+  scale: 1
