@@ -13,7 +13,7 @@
       type: string
     - variable: proxy_port
       label: Proxy Port
-      description: The Proxy Port you would like to use for Confluence (60000-80000).
+      description: The Proxy Port you would like to use for Confluence (6000-8000).
       type: int
     - variable: proxy_scheme
       label: Proxy Scheme
@@ -21,7 +21,7 @@
       type: string
     - variable: proxy_secure
       label: Proxy Secure
-      description: Are you unsing a secured proxy?
+      description: Are you using a secured proxy?
       type: boolean
     - variable: context_path
       label: Context Path
