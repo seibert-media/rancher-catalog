@@ -1,5 +1,12 @@
 confluence:
-  image: seibertmedia/atlassian-confluence:v5.10.3
+  image: seibertmedia/atlassian-confluence:5.10.3
   tty: true
   ports:
   - "8090"
+  environment:
+    TOMCAT_PROXY_NAME: ${proxy_name}
+    TOMCAT_PROXY_PORT: ${proxy_port}
+    TOMCAT_PROXY_SCHEME: ${proxy_scheme}
+    TOMCAT_PROXY_SECURE: ${proxy_secure}
+    TOMCAT_CONTEXT_PATH: ${context_path}
+    CONFLUENCE_LOGS_STDOUT: ${logs_stdout}

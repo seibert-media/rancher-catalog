@@ -1,12 +1,36 @@
 .catalog:
   name: Confluence
-  version: v5.10.3
+  version: 5.10.3
   description: |
     Enterprise Wiki Software by Atlassian
   maintainer: "//SEIBERT/MEDIA GmbH"
   uuid: confl-0
   minimum_rancher_version: v0.51.0
-
+  questions:
+    - variable: proxy_name
+      label: Proxy Name
+      description: The Proxy Name you would like to use for Confluence.
+      type: string
+    - variable: proxy_port
+      label: Proxy Port
+      description: The Proxy Port you would like to use for Confluence (60000-80000).
+      type: int
+    - variable: proxy_scheme
+      label: Proxy Scheme
+      description: The Proxy Scheme you would like to use for Confluence.
+      type: string
+    - variable: proxy_secure
+      label: Proxy Secure
+      description: Are you unsing a secured proxy?
+      type: boolean
+    - variable: context_path
+      label: Context Path
+      description: The Context Path you would like to access your Confluence under.
+      type: string
+    - variable: logs_stdout
+      label: Log to STDOUT
+      description: Would you like to redirect your confluence logs to STDOUT?
+      type: boolean
 
 confluence:
   scale: 1
